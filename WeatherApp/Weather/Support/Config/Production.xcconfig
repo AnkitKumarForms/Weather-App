@@ -1,0 +1,15 @@
+//
+//  Development.xcconfig
+//  Weather
+//
+//  Created by Ankit Kumar on 03/10/20.
+//  Copyright © 2020 Ankit. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+ServerURL = api.darksky.net/forecast/
+Protocol = https
+DarkSkyKey = 389f0e6e56ed41fd62d1a8a60b8d7d42
+//Don't reset the Dark Sky Key, Run it on the device.

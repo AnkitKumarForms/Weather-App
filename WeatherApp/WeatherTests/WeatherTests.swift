@@ -1,17 +1,15 @@
 //
-//  WeatherAppTests.swift
-//  WeatherAppTests
+//  WeatherTests.swift
+//  WeatherTests
 //
 //  Created by Ankit Kumar on 03/10/20.
 //  Copyright © 2020 Ankit. All rights reserved.
 //
 
-import Foundation
 import XCTest
-
 @testable import Weather
 
-class WeatherAppTests: XCTestCase {
+class WeatherTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -31,17 +29,6 @@ class WeatherAppTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
-    }
-    
-    func testWeatherModel(){
-        let weatherModel = WeatherModel(latitude: nil, longitude: nil)
-        XCTAssertNotNil(weatherModel)
-    }
-    
-    func testWeatherViewModel(){
-        let weatherModel = WeatherModel(latitude: nil, longitude: nil)
-        let viewModel = WeatherViewModel(weatherModel)
-        XCTAssertNotNil(viewModel)
     }
 
 }
